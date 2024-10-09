@@ -7,7 +7,7 @@ export const tipoPessoa = defineType({
   fields: [
     defineField({
       name: 'id',
-      type: 'int',
+      type: 'number',
     }),
     defineField({
       name: 'name',
@@ -15,19 +15,19 @@ export const tipoPessoa = defineType({
     }),
     defineField({
       name: 'dataNascimento',
-      type: 'Date',
+      type: 'date',
     }),
     defineField({
       name: 'email',
-      type: 'String',
+      type: 'string',
     }),
     defineField({
       name: 'telefone',
-      type: 'String',
+      type: 'string',
     }),
     defineField({
       name: 'imagemPerfil',
-      type: 'imagem',
+      type: 'image',
     }),
     defineField({
       name: 'ativo',
@@ -35,7 +35,7 @@ export const tipoPessoa = defineType({
     }),
     defineField({
       name: 'endereco',
-      type: 'Endereco',
+      type: 'endereco',
     }),
     
   ],

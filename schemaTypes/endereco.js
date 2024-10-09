@@ -7,31 +7,31 @@ export const tipoEndereco = defineType({
   fields: [
     defineField({
       name: 'rua',
-      type: 'String',
+      type: 'string',
     }),
     defineField({
       name: 'numero',
-      type: 'String',
+      type: 'string',
     }),
     defineField({
       name: 'bairro',
-      type: 'String',
+      type: 'string',
     }),
     defineField({
       name: 'cidade',
-      type: 'String',
+      type: 'string',
     }),
     defineField({
       name: 'estado',
-      type: 'String',
+      type: 'string',
     }),
     defineField({
       name: 'pais',
-      type: 'String',
+      type: 'string',
     }),
     defineField({
       name: 'cep',
-      type: 'String',
+      type: 'string',
     }),
   ],
 })
